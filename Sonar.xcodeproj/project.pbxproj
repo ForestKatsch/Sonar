@@ -13,6 +13,9 @@
 		85C7516F254A1CD200964477 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85C7516E254A1CD200964477 /* Preview Assets.xcassets */; };
 		85C7517A254A1CD300964477 /* SonarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C75179254A1CD300964477 /* SonarTests.swift */; };
 		85C75185254A1CD300964477 /* SonarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C75184254A1CD300964477 /* SonarUITests.swift */; };
+		85C75196254A1D4400964477 /* SonarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C75195254A1D4400964477 /* SonarView.swift */; };
+		85C7519B254A1D4C00964477 /* Sonar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C7519A254A1D4C00964477 /* Sonar.swift */; };
+		85C751A0254A292700964477 /* SonarHaptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C7519F254A292700964477 /* SonarHaptics.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		85C75180254A1CD300964477 /* SonarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SonarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85C75184254A1CD300964477 /* SonarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonarUITests.swift; sourceTree = "<group>"; };
 		85C75186254A1CD300964477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85C75195254A1D4400964477 /* SonarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonarView.swift; sourceTree = "<group>"; };
+		85C7519A254A1D4C00964477 /* Sonar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sonar.swift; sourceTree = "<group>"; };
+		85C7519F254A292700964477 /* SonarHaptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonarHaptics.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				85C7516B254A1CD200964477 /* Assets.xcassets */,
 				85C75170254A1CD200964477 /* Info.plist */,
 				85C7516D254A1CD200964477 /* Preview Content */,
+				85C75195254A1D4400964477 /* SonarView.swift */,
+				85C7519A254A1D4C00964477 /* Sonar.swift */,
+				85C7519F254A292700964477 /* SonarHaptics.swift */,
 			);
 			path = Sonar;
 			sourceTree = "<group>";
@@ -260,6 +269,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				85C7516A254A1CD100964477 /* ContentView.swift in Sources */,
+				85C751A0254A292700964477 /* SonarHaptics.swift in Sources */,
+				85C7519B254A1D4C00964477 /* Sonar.swift in Sources */,
+				85C75196254A1D4400964477 /* SonarView.swift in Sources */,
 				85C75168254A1CD100964477 /* SonarApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,7 +439,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.forestkatsch.Sonar;
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.forestkatsch.sonar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -449,7 +462,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.forestkatsch.Sonar;
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.forestkatsch.sonar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
